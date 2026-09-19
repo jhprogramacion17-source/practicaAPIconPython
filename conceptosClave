@@ -5,3 +5,11 @@ git checkout -b
 git pull origin [la rama] para traer un clon desde la nube
 
 para borrar es git branch -d [direccion]
+
+git stash push -m "commit" esto me ayuda crear un guardado temporal por si hare algo en otra rama
+y despues vuelvo
+
+
+git stash pop me ayuda atraer lo guardado en el stash
+
+git rm --cache .env elimna la caché del archivo, ojo no el archivo
