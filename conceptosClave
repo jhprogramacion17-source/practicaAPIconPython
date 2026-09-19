@@ -1,0 +1,5 @@
+git switch -c develop me aydua a crear una nueva rama 
+para el proyecto en concetro, otra manera de hacerlo es con 
+git checkout -b
+
+para borrar es git branch -d [direccion]
