@@ -19,3 +19,4 @@ COMO HACER SI SE SUBIO EL .ENV
 git rm --cache .env elimna la caché del archivo de manera local, ojo no el archivo
 despues de asegurar que haya quedado algun registro del env se hace el commit y se hace el push
 OJO solo se hace en esa rama en las demas sigue  estando el archivo env
+el cambio se hara general cuando se haga el merge en de forma general 
