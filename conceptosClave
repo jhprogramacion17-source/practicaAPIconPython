@@ -11,6 +11,11 @@ git stash push -m "commit" esto me ayuda crear un guardado temporal por si hare 
 y despues vuelvo
 
 
+
 git stash pop me ayuda atraer lo guardado en el stash
 
+COMO HACER SI SE SUBIO EL .ENV
+
 git rm --cache .env elimna la caché del archivo de manera local, ojo no el archivo
+despues de asegurar que haya quedado algun registro del env se hace el commit y se hace el push
+OJO solo se hace en esa rama en las demas sigue  estando el archivo env
