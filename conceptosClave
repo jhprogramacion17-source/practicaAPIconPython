@@ -2,6 +2,7 @@ git switch -c develop me aydua a crear una nueva rama
 para el proyecto en concetro, otra manera de hacerlo es con 
 git checkout -b
 
+git push origin [la rama que hara el push]
 git pull origin [la rama] para traer un clon desde la nube
 
 para borrar es git branch -d [direccion]
@@ -12,4 +13,4 @@ y despues vuelvo
 
 git stash pop me ayuda atraer lo guardado en el stash
 
-git rm --cache .env elimna la caché del archivo, ojo no el archivo
+git rm --cache .env elimna la caché del archivo de manera local, ojo no el archivo
